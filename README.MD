@@ -1,3 +1,4 @@
+# 为13600KF和铭瑄B760itx主板降压使用，现稳定降压190mv，添加13代处理器识别
 ## Synopsis
 
 VisualUEFI is 
