@@ -207,7 +207,7 @@ VOID ApplyComputerOwnersPolicy(IN PLATFORM* sys)
       pk->planes[RING].TargetVolts = 0;             // in mV (absolute)
 
     pk->planes[IACORE].OffsetVolts =
-    pk->planes[RING].OffsetVolts = -200;// -50;        // in mV 
+    pk->planes[RING].OffsetVolts = -180;// -50;        // in mV 
                                                     // (negative = undervolt)
     
     ///
@@ -218,7 +218,7 @@ VOID ApplyComputerOwnersPolicy(IN PLATFORM* sys)
                                                 // V_OVERRIDE =  Override
 
     pk->planes[ECORE].TargetVolts = 0;          // in mV (absolute)
-    pk->planes[ECORE].OffsetVolts = -200;          // in mV (negative = undervolt)
+    pk->planes[ECORE].OffsetVolts = -180;          // in mV (negative = undervolt)
 
 
     ///
